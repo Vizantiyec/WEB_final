@@ -1,0 +1,151 @@
+/* Header background color */
+header.small{
+    background: #00edc2;
+}
+
+/* Background color of every single navbar active link */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #1BBC9B !important;
+}
+
+/* Border inset color of every single navbar active link */
+.navbar-default .navbar-nav .active a {
+    -moz-box-shadow: inset #1BA39C 0 -3px 0 0;
+    -webkit-box-shadow: inset #1BA39C 0 -3px 0 0;
+    box-shadow: inset #1BA39C 0 -3px 0 0;
+}
+
+/* Arrow color of every single navbar active link */
+.navbar-default .navbar-nav a::after {
+    border-top-color: #1BA39C;
+}
+
+/* Mobile menu button background color */
+.navbar-toggle {
+    background: #36D7B7;
+}
+
+/* Mobile menu button background color on mouse hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #36D7B7 !important;
+}
+
+/* Mobile menu colors */
+@media (max-width: 767px) {
+    .sidebar-offcanvas{
+        background-color: #36D7B7;
+    }
+    .sidebar-offcanvas ul li a{border-bottom: 1px solid #1BA39C}
+}
+
+/* Back to top button colors */
+.cd-top {
+    color: #00edc2;
+    border: 2px solid #00edc2;
+}
+.cd-top:hover {
+    color:#1BBC9B !important;
+    background:#00edc2;
+}
+.cd-top:hover a:hover {color:#1BBC9B !important;}
+
+/* Border-bottom color of every title section */
+.section-header h2:after {
+    border-bottom: 2px solid #00edc2;
+}
+
+/* What we do section colors */
+.bordericon {
+    border: 8px solid #00edc2;
+}
+.bordericon:hover {background-color: #00edc2}
+.box-intro h5:after {
+    border-bottom: 2px solid #00edc2;
+}
+.panel-default {
+    border-color: #00edc2 !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #00edc2 !important;
+}
+.panel-heading a.collapsed:after {
+    color: #1BA39C;
+}
+.panel-heading a:after {
+    color: #1BA39C;
+}
+.carousel-indicators .active {background-color: #1BA39C !important;} /* slider navigation active background color */
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    background-color: #5cb85c; /* slider loading color */
+}
+
+/* Portfolio section colors */
+#portfolio {
+    background: #1BBC9B;
+}
+#portfolio:before {
+    border-bottom: 110px solid #1BBC9B;
+}
+figcaption a {
+    background: #0bb586; /* take a look button background color */
+}
+.overlay-genie .overlay-path {
+    fill: rgba(59, 140, 115, 0.9);
+}
+.project-header {background: #1BBC9B;}
+.overlay-button:hover {
+    color: #00edc2;
+    border-color: #00edc2;
+}
+.row-background {background: #1BBC9B;}
+#project h4:after {
+    border-bottom: 2px solid #00edc2;
+}
+#project li:after {
+    border-bottom: 1px solid #00edc2;
+}
+/* about section colors */
+#about:before {
+    border-top: 100px solid #1BBC9B;
+}
+.line-drawing path {
+    stroke: #00edc2; /* tablet line drawing effect color */
+}
+.member {
+    background: #1BBC9B;
+}
+.avatar-member {
+    border: 5px solid #1BBC9B;
+}
+.avatar-border {border:5px solid #00edc2}
+.facebook, .twitter, .googleplus, .linkedin {
+    color: #00edc2;
+    border: 2px solid #00edc2;
+}
+.facebook:hover, .twitter:hover, .googleplus:hover, .linkedin:hover {
+    color: #1BBC9B !important;
+    background: #00edc2;
+}
+
+/* overlay background color of fixed section with fixed background image */
+.overlay-section {
+    background: #00ebbe;
+}
+
+/* contact section colors */
+#contact {
+    background: #1BBC9B;
+}
+.input-group-addon {color:#16A085 !important;background-color: #36D7B7 !important;}
+.my-glyphicon {color:#16A085 !important}
+.form-control {color:#16A085 !important; background-color:#00edc2 !important;}
+#contact .btn {  background-color: #36D7B7 !important; }
+#contact .btn:hover {background-color:#00edc2 !important;}
+
+#cd-zoom-in, #cd-zoom-out {
+    background-color: #1BBC9B;
+}
+
+/* footer colors */
+.blockfooter h4 {border-bottom: 1px solid #00edc2;}
+.blockfooter h4 span {border-bottom: 4px solid #1BBC9B;}

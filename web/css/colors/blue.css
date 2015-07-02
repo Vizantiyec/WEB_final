@@ -1,0 +1,151 @@
+/* Header background color */
+header.small{
+    background: #6BB9F0;
+}
+
+/* Background color of every single navbar active link */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #1E8BC3 !important;
+}
+
+/* Border inset color of every single navbar active link */
+.navbar-default .navbar-nav .active a {
+    -moz-box-shadow: inset #3A539B 0 -3px 0 0;
+    -webkit-box-shadow: inset #3A539B 0 -3px 0 0;
+    box-shadow: inset #3A539B 0 -3px 0 0;
+}
+
+/* Arrow color of every single navbar active link */
+.navbar-default .navbar-nav a::after {
+    border-top-color: #3A539B;
+}
+
+/* Mobile menu button background color */
+.navbar-toggle {
+    background: #59ABE3;
+}
+
+/* Mobile menu button background color on mouse hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #59ABE3 !important;
+}
+
+/* Mobile menu colors */
+@media (max-width: 767px) {
+    .sidebar-offcanvas{
+        background-color: #59ABE3;
+    }
+    .sidebar-offcanvas ul li a{border-bottom: 1px solid #3A539B}
+}
+
+/* Back to top button colors */
+.cd-top {
+    color: #6BB9F0;
+    border: 2px solid #6BB9F0;
+}
+.cd-top:hover {
+    color:#1E8BC3 !important;
+    background:#6BB9F0;
+}
+.cd-top:hover a:hover {color:#1BBC9B !important;}
+
+/* Border-bottom color of every title section */
+.section-header h2:after {
+    border-bottom: 2px solid #6BB9F0;
+}
+
+/* What we do section colors */
+.bordericon {
+    border: 8px solid #6BB9F0;
+}
+.bordericon:hover {background-color: #6BB9F0}
+.box-intro h5:after {
+    border-bottom: 2px solid #6BB9F0;
+}
+.panel-default {
+    border-color: #6BB9F0 !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #6BB9F0 !important;
+}
+.panel-heading a.collapsed:after {
+    color: #2574A9;
+}
+.panel-heading a:after {
+    color: #2574A9;
+}
+.carousel-indicators .active {background-color: #34496E !important;} /* slider navigation active background color */
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    background-color: #6BB9F0; /* slider loading color */
+}
+
+/* Portfolio section colors */
+#portfolio {
+    background: #1E8BC3;
+}
+#portfolio:before {
+    border-bottom: 110px solid #1E8BC3;
+}
+figcaption a {
+    background: #6BB9F0; /* take a look button background color */
+}
+.overlay-genie .overlay-path {
+    fill: rgba(32, 100, 155, 0.9);
+}
+.project-header {background: #1E8BC3;}
+.overlay-button:hover {
+    color: #6BB9F0;
+    border-color: #6BB9F0;
+}
+.row-background {background: #1E8BC3;}
+#project h4:after {
+    border-bottom: 2px solid #6BB9F0;
+}
+#project li:after {
+    border-bottom: 1px solid #6BB9F0;
+}
+/* about section colors */
+#about:before {
+    border-top: 100px solid #1E8BC3;
+}
+.line-drawing path {
+    stroke: #6BB9F0; /* tablet line drawing effect color */
+}
+.member {
+    background: #1E8BC3;
+}
+.avatar-member {
+    border: 5px solid #1E8BC3;
+}
+.avatar-border {border:5px solid #6BB9F0}
+.facebook, .twitter, .googleplus, .linkedin {
+    color: #6BB9F0;
+    border: 2px solid #6BB9F0;
+}
+.facebook:hover, .twitter:hover, .googleplus:hover, .linkedin:hover {
+    color: #1E8BC3 !important;
+    background: #6BB9F0;
+}
+
+/* overlay background color of fixed section with fixed background image */
+.overlay-section {
+    background: #6BB9F0;
+}
+
+/* contact section colors */
+#contact {
+    background: #1E8BC3;
+}
+.input-group-addon {color:#1E8BC3 !important;background-color: #59ABE3 !important;}
+.my-glyphicon {color:#1E8BC3 !important}
+.form-control {color:#1E8BC3 !important; background-color:#6BB9F0 !important;}
+#contact .btn {  background-color: #59ABE3 !important; }
+#contact .btn:hover {background-color:#6BB9F0 !important;}
+
+#cd-zoom-in, #cd-zoom-out {
+    background-color: #1E8BC3;
+}
+
+/* footer colors */
+.blockfooter h4 {border-bottom: 1px solid #6BB9F0;}
+.blockfooter h4 span {border-bottom: 4px solid #6BB9F0;}

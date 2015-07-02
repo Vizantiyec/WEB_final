@@ -1,0 +1,82 @@
+/* overflow scroll overlap fix - on bootstrap delete this string: @-ms-viewport{width:device-width} */
+
+@-ms-viewport {
+    overflow-y: auto;
+}
+a:hover, a:focus {
+text-decoration: none !important;
+}
+.navbar-default .navbar-brand {
+    color: white !important;
+    outline: 0 !important;
+}
+.navbar-default .navbar-nav>li>a {
+    font-weight: 600;
+    color: white !important;
+    outline: 0 !important;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: white !important;
+    outline: 0 !important;
+}
+.navbar-toggle {
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    transition: all 1s;
+    -moz-transition: all 1s; /* Firefox 4 */
+    -webkit-transition: all 1s; /* Safari and Chrome */
+    -o-transition: all 1s; /* Opera */
+    height: 50px;
+    width: 50px;
+    padding: 0 !important;
+    margin-top: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    opacity: 1;
+}
+
+.navbar {
+    border: 0 !important;
+}
+
+.navbar-nav {
+    margin: 0!important;
+}
+
+.navbar-default {
+    background-color: transparent !important;
+}
+
+.x.close{float:none !important;font-size:21px;font-weight:bold;line-height:1;color:#000;text-shadow:0 1px 0 #fff;opacity: inherit !important;filter:none !important}
+.close:hover,.close:focus{color:#000;text-decoration:none;cursor:pointer;opacity:none !important;filter:none !important}
+
+.form-control {outline: none !important; border:none !important;-webkit-box-shadow: none !important; box-shadow: none !important;border-top-right-radius: 5px !important; border-bottom-right-radius: 5px !important;}
+.input-group-addon { border: none !important}
+#contact .btn { outline: none !important;border: none !important;width: 100%; }
+
+@media (min-width: 768px) {
+    .col-sm-3 {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-3 {
+        width: 25%;
+    }
+}
+
+.row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+.progress-bar, .progress-bar.active {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.carousel-indicators li {background: #5CBDAA;height: 8px !important; width: 35px !important; border-radius: 0 !important; border: none !important;}
+.carousel-indicators .active { height:8px !important; width: 35px !important;margin: 1px !important;}

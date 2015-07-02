@@ -1,0 +1,154 @@
+/* Header background color */
+header.small{
+    background: #5cbdaa;
+}
+
+/* Background color of every single navbar active link */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #222 !important;
+}
+
+/* Border inset color of every single navbar active link */
+.navbar-default .navbar-nav .active a {
+    -moz-box-shadow: inset #222 0 -3px 0 0;
+    -webkit-box-shadow: inset #222 0 -3px 0 0;
+    box-shadow: inset #222 0 -3px 0 0;
+}
+
+/* Arrow color of every single navbar active link */
+.navbar-default .navbar-nav a::after {
+    border-top-color: #222;
+}
+
+/* Mobile menu button background color */
+.navbar-toggle {
+    background: #222;
+}
+/* Mobile menu button background color on mouse hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #E08283 !important;
+}
+
+/* Mobile menu colors */
+@media (max-width: 767px) {
+    .sidebar-offcanvas{
+        background-color: #E08283;
+    }
+    .sidebar-offcanvas ul li a{border-bottom: 1px solid #96281B}
+}
+
+/* Back to top button colors */
+.cd-top {
+    color: #222;
+    border: 2px solid #222;
+}
+.cd-top:hover {
+    color:white !important;
+    background:#222;
+}
+.cd-top:hover a:hover {color:#D2527F !important;}
+
+/* Border-bottom color of every title section */
+.section-header h2:after {
+    border-bottom: 2px solid #5cbdaa;
+}
+
+/* What we do section colors */
+.bordericon {
+    border: 8px solid #ccc;
+}
+.bordericon:hover {background-color: #ccc}
+.box-intro h5:after {
+    border-bottom: 2px solid #5cbdaa;
+}
+.panel-default {
+    border-color: #5cbdaa !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #5cbdaa !important;
+}
+.panel-heading a.collapsed:after {
+    color: #D2527F;
+}
+.panel-heading a:after {
+    color: #D2527F;
+}
+.carousel-indicators .active {background-color: #D2527F !important;} /* slider navigation active background color */
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    background-color: #5cbdaa; /* slider loading color */
+}
+
+/* Portfolio section colors */
+#portfolio {
+    background: url(../../img/bg_mid.png);
+}
+/*#portfolio:before {
+    border-bottom: 110px solid #D2527F;
+}*/
+figcaption a {
+    background: #5cbdaa; /* take a look button background color */
+}
+.overlay-genie .overlay-path {
+    fill: rgba(34, 34, 34, 0.9);
+}
+.project-header {background: #5cbdaa;}
+.overlay-button:hover {
+    color: #222222;
+    border-color: #222222;
+}
+.row-background {background: #fff; color: #222222;}
+#project h4:after {
+    border-bottom: 2px solid #5cbdaa;
+}
+#project li:after {
+    border-bottom: 1px solid #5cbdaa;
+}
+/* about section colors */
+/*#about:before {
+    border-top: 100px solid #D2527F;
+}*/
+.line-drawing path {
+    stroke: #5cbdaa; /* tablet line drawing effect color */
+}
+.member {
+    background: #222;
+}
+.avatar-member {
+    border: 5px solid #5cbdaa;
+}
+.avatar-border {border:5px solid #fff}
+.facebook, .twitter, .googleplus, .linkedin {
+    color: white;
+    border: 2px solid white;
+}
+.facebook:hover, .twitter:hover, .googleplus:hover, .linkedin:hover {
+    color: #D2527F !important;
+    background: white;
+}
+
+/* overlay background color of fixed section with fixed background image */
+.overlay-section {
+    background: transparent;
+}
+
+/* contact section colors */
+#contact {
+    background: #222;
+}
+#contact .section-header h2:after {
+    border-bottom: 2px solid white !important;
+}
+.input-group-addon {color:white !important;background-color: #33b683 !important;}
+.my-glyphicon {color:white !important}
+.form-control {color:white !important; background-color:#fff !important;}
+#contact .btn {  background-color: #33b683 !important; }
+#contact .btn:hover {background-color:#2fc389 !important;}
+
+#cd-zoom-in, #cd-zoom-out {
+    background-color: #D2527F;
+}
+
+/* footer colors */
+.blockfooter h4 {border-bottom: 1px solid #5cbdaa;}
+.blockfooter h4 span {border-bottom: 4px solid #5cbdaa;}
+

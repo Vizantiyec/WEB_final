@@ -1,0 +1,165 @@
+/* Header background color */
+header.small{
+    background: #444444;
+}
+
+/* Background color of every single navbar active link */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #666666 !important;
+}
+
+/* Border inset color of every single navbar active link */
+.navbar-default .navbar-nav .active a {
+    -moz-box-shadow: inset #888888 0 -3px 0 0;
+    -webkit-box-shadow: inset #888888 0 -3px 0 0;
+    box-shadow: inset #888888 0 -3px 0 0;
+}
+
+/* Arrow color of every single navbar active link */
+.navbar-default .navbar-nav a::after {
+    border-top-color: #888888;
+}
+
+/* Mobile menu button background color */
+.navbar-toggle {
+    background: #333333;
+}
+
+/* Mobile menu button background color on mouse hover */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #333333 !important;
+}
+
+/* Mobile menu colors */
+@media (max-width: 767px) {
+    .sidebar-offcanvas{
+        background-color: #333333;
+    }
+    .sidebar-offcanvas ul li a{border-bottom: 1px solid #888888}
+}
+
+/* Back to top button colors */
+.cd-top {
+    color: #DADFE1;
+    border: 2px solid #DADFE1;
+}
+.cd-top:hover {
+    color:black !important;
+    background:#DADFE1;
+}
+.cd-top:hover a:hover {color:#1BBC9B !important;}
+
+/* Border-bottom color of every title section */
+.section-header h2:after {
+    border-bottom: 2px solid #222222;
+}
+
+/* What we do section colors */
+.bordericon {
+    border: 8px solid #DADFE1;
+}
+.bordericon:hover {background-color: #DADFE1}
+.box-intro h5:after {
+    border-bottom: 2px solid #DADFE1;
+}
+.panel-default {
+    border-color: #555555 !important;
+}
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #555555 !important;
+}
+.panel-heading a.collapsed:after {
+    color: #444444;
+}
+.panel-heading a:after {
+    color: #444444;
+}
+.carousel-indicators .active {background-color: #444444 !important;} /* slider navigation active background color */
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+    background-color: #888888; /* slider loading color */
+}
+
+/* Portfolio section colors */
+#portfolio {
+    background: #666666;
+}
+#portfolio:before {
+    border-bottom: 110px solid #666666;
+}
+figcaption a {
+    background: #666666; /* take a look button background color */
+}
+figcaption a:hover {
+    color: white; /* take a look button on mouse hover color */
+}
+.overlay-genie .overlay-path {
+    fill: rgba(64, 64, 65, 0.9);
+}
+.project-header {background: #666666;}
+.overlay-button:hover {
+    color: #DADFE1;
+    border-color: #DADFE1;
+}
+.row-background {background: #666666;}
+#project h4:after {
+    border-bottom: 2px solid #DADFE1;
+}
+#project li:after {
+    border-bottom: 1px solid #DADFE1;
+}
+/* about section colors */
+#about:before {
+    border-top: 100px solid #666666;
+}
+.line-drawing path {
+    stroke: #666666; /* tablet line drawing effect color */
+}
+.member {
+    background: #444444;
+}
+.avatar-member {
+    border: 5px solid #444444;
+}
+.avatar-border {border:5px solid #888888}
+.facebook, .twitter, .googleplus, .linkedin {
+    color: #DADFE1;
+    border: 2px solid #DADFE1;
+}
+.facebook:hover, .twitter:hover, .googleplus:hover, .linkedin:hover {
+    color: black !important;
+    background: #DADFE1;
+}
+.details .section-header {
+    color:white !important;
+}
+.details .section-header h2:after {
+    border-bottom: 2px solid white !important;
+}
+
+/* overlay background color of fixed section with fixed background image */
+.overlay-section {
+    background: #222222;
+}
+
+/* contact section colors */
+#contact {
+    background: #222222;
+}
+#contact .section-header h2:after {
+    border-bottom: 2px solid white;
+}
+.input-group-addon {color:black !important;background-color: #DADFE1 !important;}
+.my-glyphicon {color:black !important}
+.form-control {color:black !important; background-color:#ECF0F1 !important;}
+#contact .btn {color: black !important;  background-color: #DADFE1 !important; }
+#contact .btn:hover {background-color:#ECF0F1 !important;}
+
+#cd-zoom-in, #cd-zoom-out {
+    background-color: #222222;
+}
+
+/* footer colors */
+.blockfooter h4 {border-bottom: 1px solid #DADFE1;}
+.blockfooter h4 span {border-bottom: 4px solid #DADFE1;}
+
+
